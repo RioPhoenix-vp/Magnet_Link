@@ -248,7 +248,7 @@ A few things that will bite otherwise:
 
 ## Credits
 
-Built by <your name>.
+Built by Ved Pawnikar.
 
 <!--
 Optional sections to fill in before publishing:
