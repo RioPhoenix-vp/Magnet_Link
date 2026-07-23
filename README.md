@@ -2,8 +2,11 @@
 
 A mobile puzzle game built in Unity. Move a magnet stick around an arena to attract coloured balls, stack them, and release them into matching boxes before the clock runs out.
 
+**[▶ Download and play on itch.io](https://riophoenixvp.itch.io/magnet-link)**
+
+[![Play on itch.io](https://img.shields.io/badge/itch.io-download-fa5c5c?logo=itch.io&logoColor=white)](https://riophoenixvp.itch.io/magnet-link)
 ![Unity](https://img.shields.io/badge/Unity-6000.0.67f1-black?logo=unity)
-![Platform](https://img.shields.io/badge/platform-Android%20%7C%20iOS-brightgreen)
+![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20Android-brightgreen)
 ![Language](https://img.shields.io/badge/language-C%23-239120?logo=c-sharp)
 
 ---
@@ -171,6 +174,9 @@ Use **Window → General → Device Simulator** to check layouts across aspect r
 
 ## Releases
 
+Playable builds are published on **[itch.io](https://riophoenixvp.itch.io/magnet-link)**.
+Tagged versions are also available under [Releases](../../releases).
+
 Build output is not committed to this repository. `Build/`, `Library/`, and other
 generated directories are excluded by `.gitignore`.
 
@@ -180,8 +186,7 @@ committing builds inflates clone times for everyone and the history never shrink
 even after the files are deleted. Binaries also can't be diffed or merged, so
 they carry none of the benefits version control exists to provide.
 
-Playable builds are published under [Releases](../../releases) instead, attached
-to a tagged version:
+To tag a version alongside an itch.io upload:
 
 ```bash
 git tag -a v0.1.0 -m "First playable build"
@@ -239,6 +244,8 @@ A few things that will bite otherwise:
 
 - [ ] In-level settings/pause panel
 - [ ] Music and SFX volume sliders
+- [ ] Colourblind support — shape or pattern markers on balls, since red/green/blue
+      is the core mechanic and the axis deuteranopia affects most
 - [ ] Honeycomb ball spawn layout in `BoxSpawner`
 - [ ] Revisit XP curve pacing
 - [ ] Level star ratings
@@ -248,7 +255,7 @@ A few things that will bite otherwise:
 
 ## Credits
 
-Built by Ved Pawnikar.
+Built by <your name>.
 
 <!--
 Optional sections to fill in before publishing:
